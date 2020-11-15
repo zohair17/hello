@@ -31,4 +31,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: Deployment of surge
-        run: surge ./iamzohi.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ ${{ secrets.ZOHAIR_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
