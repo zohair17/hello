@@ -34,5 +34,5 @@ jobs:
          run: yarn build
       -  name: Installing surge
          run: npm install -g surge 
-      - name: surge ./build http://zohi.surge.sh/ --token {{secret.SURGE_TIOKEN}}
+      -  name: surge ./build http://zohi.surge.sh/ --token {{secret.SURGE_TIOKEN}}
    
